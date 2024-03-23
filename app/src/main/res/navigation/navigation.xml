@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.zorkoadmin.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/addItemFragment"
+        android:name="com.example.zorkoadmin.fragments.AddItemFragment"
+        android:label="fragment_add_item"
+        tools:layout="@layout/fragment_add_item" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.zorkoadmin.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/viewMenuFragment"
+        android:name="com.example.zorkoadmin.fragments.ViewMenuFragment"
+        android:label="fragment_view_menu"
+        tools:layout="@layout/fragment_view_menu" />
+    <fragment
+        android:id="@+id/addUserFragment"
+        android:name="com.example.zorkoadmin.fragments.AddUserFragment"
+        android:label="fragment_add_user"
+        tools:layout="@layout/fragment_add_user" />
+</navigation>
